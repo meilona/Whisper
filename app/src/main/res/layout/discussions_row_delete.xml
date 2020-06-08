@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:elevation="50dp"
+    android:id="@+id/cvMain"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/llLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ivPicture"
+            android:layout_width="150dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="title"
+                android:textSize="20sp"
+                android:textColor="@color/pink"/>
+
+            <TextView
+                android:id="@+id/tvUser"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="posted by user"
+                android:textSize="12sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_weight="1"
+            android:layout_width="130dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_delete_black_24dp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "874917778662",
+    "firebase_url": "https://bisik-5e041.firebaseio.com",
+    "project_id": "bisik-5e041",
+    "storage_bucket": "bisik-5e041.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874917778662:android:c445024ac20e8cac96d727",
+        "android_client_info": {
+          "package_name": "id.ac.umn.bisik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874917778662-hkjhm5bgvp5f8c3073ivp6cks2odqodf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaUoM4gutbDC1moQ5JfvVVkiqYwRUX3Pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874917778662-hkjhm5bgvp5f8c3073ivp6cks2odqodf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
